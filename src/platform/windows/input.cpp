@@ -638,6 +638,9 @@ namespace platf {
       case VK_RIGHT:
       case VK_DIVIDE:
       case VK_APPS:
+      case VK_VOLUME_MUTE:
+      case VK_VOLUME_DOWN:
+      case VK_VOLUME_UP:
         ki.dwFlags |= KEYEVENTF_EXTENDEDKEY;
         break;
       default:
